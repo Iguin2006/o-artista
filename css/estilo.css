@@ -12,15 +12,12 @@ header, #principal, #second, #contato, #stream {
   color: #fff;
   background-color: #555;
 }
-
 .f {
   background-color: #5b305a;
 }
-
 .l {
   background-color: #e49756;
 }
-
 .m {
   background-color: #e04b5a;
 }
@@ -41,5 +38,114 @@ h1, h2 {
 footer {
   background-color: #333;
   color: #ddd;
+}
+#menu li{
+  list-style: none;
+  text-decoration:none;
+}
+#menu a{
+  text-decoration:none;
+}
+#menu{
+  display: flex;
+}
+.item-menu{
+  padding:0px 0px 10px 10px;
+  
+}
+.link-menu{
+  border-radius: 10px;
+  padding: 10px;
+}
+#logo{
+  width: 200px;
+  height: 200px;
+  
+}
+header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+#principal {
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+  align-items: center;
+}
+#principal img{
+  width: 270px;
+  margin-left: 400px;
+}
+#sec_ctd{
+  justify-content: center;
+  margin-right: 320px;
+  list-style: none;
+  text-decoration:none;
+}
+h1{
+  text-align: right;
+  font-size: 40px;
+}
+#sec_ctd p{
+  text-align: justify;
+  margin-bottom: 85px;
+  margin-right: 50px;
+  margin-top:40px;
+  list-style: none;
+  text-decoration:none;
+}
+#second img{
+  width: 200px;
+  margin: 40px;
+}
+#second{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#contato{
+  display: flex ;
+  justify-content: space-around;
+  align-items:center;
+}
+#contato a{
+  color: #fff;
+}
+#social img{
+  width: 30px;
+  height: 30px;
+}
+#descricao{
+  width: 500px;
+  padding: 50px ;
+  border: 1px solid;
+  margin:80px;
+}
+
+#acesso {
+  padding: 20px;
+  box-shadow: 0 4px 20px rgb(0, 0, 0);
+  border-radius: 6px;
+  text-align: center;
+}
+#acesso img{
+  width: 30px;
+}
+.f{
+  text-align: center;
+}
+.f a{
+  list-style: none;
+  text-decoration:none;
+  font-family: 'Amatic SC';
+}
+
+section .l{
+  list-style: none;
+  text-decoration:none;
+  font-family: 'Amatic SC';
+  color:#fff;
 }
 
